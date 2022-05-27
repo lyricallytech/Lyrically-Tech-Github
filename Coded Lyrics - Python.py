@@ -3,7 +3,7 @@
 # Instrumental: '93 'Til Infinity by Souls of Mischief
 
 print("\n")
-lyrics_file = open("Plain Text Lyrics.txt",'r')
+lyrics_file = open("Lyrically-Tech-Github/Plain Text Lyrics.txt",'r')
 
 for line in lyrics_file:
     print(line.strip())
