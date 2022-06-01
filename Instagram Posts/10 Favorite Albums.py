@@ -1,24 +1,30 @@
 # Lyrically Tech's 10 Favorite Hip-Hop Albums/Projects
 
-# First step we create a "dictionary" to store the list of albums
-# Left of semi-colon is our album and to the right the artist
+from time import sleep
 from multiprocessing.sharedctypes import Value
 
+# First step we create a "dictionary" to store the list of albums
+# Left of semi-colon (key) is our album and to the right the artist (value)
 favorite_hiphop_albums = {
-    "It Was Written" : "Nas", 
+    "Nothing Was The Same" : "Drake",
     "Friday Night Lights" : "J. Cole",
     "Lupe Fiasco's Food & Liquor" : "Lupe Fiasco",
     "The College Dropout" : "Ye",
-    "American Gangster" : "Jay-Z",
+    "It Was Written": "Nas", 
     "Midnight Marauders" : "A Tribe Called Quest",
-    "Nothing Was The Same" : "Drake",
     "Purple Haze" : "Cam'ron",
+    "American Gangster" : "Jay-Z",
     "The Rising Tied" : "Fort Minor",
     "The Score" : "Fugees"
-}
+    }
 
-# Our actual code that outputs to the screen will be below:
-print("\n")
+# Line 23: The beginning of our actual code that outputs to the screen:
+print("\n" "Lyrically Tech's 10 Favorite Hip-Hop Projects: ""\n")
 for album, artist in favorite_hiphop_albums.items():
-    print("{} by {}".format(album, artist))
+    # Delay each album line printed by 1 second:
+    sleep(1)
+    print("- {} by {}".format(album, artist))
+print("\n")
+sleep(1)
+print("Drop yours below in the comments!")
 print("\n")
