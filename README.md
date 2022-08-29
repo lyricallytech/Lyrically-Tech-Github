@@ -9,6 +9,7 @@ I am a Salesforce ☁️ system admin that is passionate about hip hop and build
 
 **Connect and join my tech journey via 🌎:**
 - [Business Card](https://hihello.me/p/9362a456-2642-4245-b72c-9fef7146eb62) 📲
-- [Salesforce Trailblazer Profile](https://trailblazer.me/id/metricmaster) ☁️
 - [Metric Master Consulting Services](www.metric-master.com) 💻
 - [LinkedIn](www.linkedin.com/in/stassy/) 💼
+- [Salesforce Trailblazer Profile](https://trailblazer.me/id/metricmaster) ☁️
+- [Solo Learn Programming Journey](https://www.sololearn.com/profile/21492759) ⌨
